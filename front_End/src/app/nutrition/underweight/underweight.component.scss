@@ -1,0 +1,42 @@
+
+  
+$primary-color: #555;
+$secondary-color: #999;
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  
+  h2 {
+    color: $primary-color;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    color: $secondary-color;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    color: $primary-color;
+    margin-bottom: 15px;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+  }
+}

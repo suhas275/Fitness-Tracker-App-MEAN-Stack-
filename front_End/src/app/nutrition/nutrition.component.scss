@@ -1,0 +1,32 @@
+.head{
+  justify-content: center;
+  display: flex;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card {
+  width: 300px;
+}
+
+.card-img-top {
+  height: 290px;
+  width: 100%;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn {
+  width: 100%;
+}

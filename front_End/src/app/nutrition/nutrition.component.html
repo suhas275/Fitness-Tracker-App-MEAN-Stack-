@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Document</title>
+</head>
+<body>
+  <div>
+    <h2 class="head"><u>BMI (Body Mass Index) based on their weight classification.</u></h2>
+    <ul>
+      <li>
+        <strong
+          >The user's BMI indicates that they fall into either the overweight,
+          underweight, or normal weight category.</strong
+        >
+      </li>
+      <li>
+        If the user's BMI indicates overweight, they may be presented with options
+        such as personalized diet plans, exercise routines, and lifestyle
+        modifications to help them achieve a healthier weight.
+      </li>
+      <li>
+        On the other hand, if the user's BMI indicates underweight, the webpage
+        offers recommendations for increasing calorie intake, strength training
+        exercises, and advice on maintaining a balanced diet to support healthy
+        weight gain.
+      </li>
+      <li>
+        These options empower the user to make informed choices regarding their
+        health and well-being, encouraging them to take steps towards achieving
+        their desired weight and improving their overall quality of life.
+      </li>
+    </ul>
+  </div>
+  <div class="cotainer">
+    <div class="row">
+      <div class="col-6">
+        <div class="card">
+          <img class="card-img-top" src="assets/fat.png" alt="Card image cap" />
+          <div class="card-body">
+            <button class="btn btn-primary" (click)="overweight()">
+              Overweight
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card">
+          <img class="card-img-top" src="assets/lean (2).png" alt="Card image cap" />
+          <div class="card-body">
+            <button class="btn btn-primary" (click)="underweight()">
+              Underweight
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
