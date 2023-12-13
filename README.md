@@ -30,7 +30,6 @@ npm install mongodb
 npm install cors
 npm install mongoose
 npm install body-parser
-npm install ngx-bootstrap bootstrap --force
 ```
 Download mongodb compass and mongodb shell to store the database `https://www.mongodb.com/try/download/community`
 `https://www.mongodb.com/try/download/shell`
